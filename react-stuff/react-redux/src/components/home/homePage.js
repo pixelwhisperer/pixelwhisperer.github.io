@@ -5,12 +5,12 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="jumbotron">
-        <h1>Course Administration</h1>
+        <h1>React Course Administration</h1>
         <p>Hello World!</p>
         <Link to="about" className="btn btn-primary btn-lg">About</Link>
-      </div>
+      </div> 
     );
-  }
+  } 
 }
 
 export default HomePage;
